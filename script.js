@@ -19,6 +19,5 @@ formulario.addEventListener('submit', (event) => {
         return
     }
     
-
     return alert(`Olá ${userNameInput} seu pedido foi recebido: ${userMessageInput} `)
 })
