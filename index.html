@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pizza</title>
+</head>
+
+<body>
+    <!--navbar-->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">Pizza</h1>
+            <ul>
+                <a href="#product">
+                    <li>Cardápio</li>
+                </a>
+                <a href="#promotion">
+                    <li>Promoção do dia</li>
+                </a>
+
+            </ul>
+            <button class="contatact-buttom"><a href="#contact">Fazer Pedido</a></button>
+        </div>
+    </header>
+    <!--end navbar-->
+    <!--headline section-->
+    <section id="first">
+        <div class="head-container">
+            <div class="headline-box">
+                <h1 class="headline">Sua Fome Pede Pizza. A Gente Entrega!</h1>
+                <p class="headline-desc">Prepare-se para um explosão de sabores! Pizzas perfeitas para qualquer ocasião
+                </p>
+                <a href="#contact"><button class="head-btn">Fazer Pedido</button></a>
+            </div>
+            <div class="img-container">
+                <img src="images/principal.png" alt="imagem de uma pizza" class="headline-img">
+            </div>
+        </div>
+    </section>
+    <!--end headline section-->
+    <!--promotion section-->
+    <section id="promotion">
+        
+        <div class="bg">sdf </div>
+        
+        <div class="promo-content">
+            <h1 class="promo-title">OFERTA DO DIA</h1>
+            <p class="promo">Pizza Grande de Calabresa</p>
+            <h2 class="price">R$45,90</h2>
+            <a href="#contact"><button class="promo-btn">Quero Pedir</button></a>
+        </div>
+    </section>
+    <!--end promotion section-->
+    <!--product section-->
+    <section id="product">
+        <h1>CARDÁPIO</h1>
+        <div class="product-container">
+            
+            <!--pizza box-->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/calabresa.jpg" alt="pizza de calabresa">
+                </div>
+                <div class="product-content">
+                    <h3>Calabresa</h3>
+                    <p><strong>Ingredientes:</strong> Molho de tomate, muçarela, linguiça calabresa, cebola, orégano</p>
+                </div>
+            </div>
+            <!--endpizza box-->
+
+            <!--pizza box-->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/maguerita.jpg" alt="pizza de maguerita">
+                </div>
+                <div class="product-content">
+                    <h3>Maguerita</h3>
+                    <p><strong>Ingredientes:</strong> Molho de tomate, muçarela, manjericão, cebola, orégano</p>
+                </div>
+            </div>
+            <!--endpizza box-->
+
+            <!--pizza box-->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/frangocomcatupiry.jpg" alt="pizza de frango com catupiry">
+                </div>
+                <div class="product-content">
+                    <h3>Frango com Catupiry</h3>
+                    <p><strong>Ingredientes:</strong> Molho de tomate, muçarela, frango desfiado, catupiry, orégano</p>
+                </div>
+            </div>
+            <!--endpizza box-->
+
+            <!--pizza box-->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/portuguesa.jpg" alt="pizza de portuguesa">
+                </div>
+                <div class="product-content">
+                    <h3>Portuguesa</h3>
+                    <p><strong>Ingredientes:</strong> Molho de tomate, muçarela, presunto, cebola, azeitona</p>
+                </div>
+            </div>
+            <!--endpizza box-->
+
+            <!--pizza box-->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/quatroqueijos.jpg" alt="pizza de quatro queijos">
+                </div>
+                <div class="product-content">
+                    <h3>Quatro Queijos</h3>
+                    <p><strong>Ingredientes:</strong> Molho de tomate, muçarela, provolone, parmesão, gorgonzola</p>
+                </div>
+            </div>
+            <!--endpizza box-->
+
+            <!--pizza box-->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/vegetariana.jpg" alt="pizza vegetariana">
+                </div>
+                <div class="product-content">
+                    <h3>Vegetariana</h3>
+                    <p><strong>Ingredientes:</strong> Molho de tomate, pimentão, brócolis, cebola, azeítonas, orégano</p>
+                </div>
+            </div>
+            <!--endpizza box-->
+
+        </div>
+
+
+    </section>
+    <!--end product section-->
+
+    
+    <!--contact section-->
+    <section id="contact" >
+        <form class="contact-form" action="submit">
+            <h1>FAÇA SEU PEDIDO</h1>
+            <div class="divLabel">
+            <label for="nome" >Nome</label>
+            <input type="text" class="form-input" id="nome" name="nome" placeholder="Nome Completo" required>
+            </div>
+            <div class="divLabel">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-input" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="divLabel">
+            <label for="tel">Telefone</label>
+            <input type="number" class="form-input" id="tel" name="tel" placeholder="Telefone" required>
+            </div>
+            <div class="divLabel">
+            <label for="message">Digite Seu Pedido</label>
+            <input type="message" class="form-input-msg" id="message" name="message" placeholder="Digite Seu Pedido">
+            </div>
+            <button type="submit" class="form-btn">Enviar Pedido</button>
+
+        </form>
+
+    </section>
+
+    <!--end contact section-->
+    
+    <!--Footer-->
+    <footer id="footer">
+        <div class="footer-contact">
+            <h1 class="">CONTATO</h1>
+        </div>
+        <div class="footer-img">
+            <img src="images/facelogo.svg" alt="icone facebook">
+            <img src="images/instalogo.svg" alt="icone instagram">
+            <img src="images/whats.svg" alt="icone whatsapp">
+        </div>
+
+    </footer>
+    <!--end Footer-->
+    <script src="script.js"></script>
+</body>
+
+</html>
