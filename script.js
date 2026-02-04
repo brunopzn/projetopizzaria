@@ -17,7 +17,7 @@ formulario.addEventListener('submit', (event) => {
         email.style.border = '2px solid red';
         alert('Digite um e-mail valido')
         return
-    } 
+    }
 
     return alert(`Olá ${userNameInput} seu pedido foi recebido: ${userMessageInput} `)
 })
